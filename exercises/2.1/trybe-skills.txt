@@ -1,7 +1,0 @@
-Unix
-Bash
-Git
-Soft Skills
-Internet
-CSS
-MySQL
