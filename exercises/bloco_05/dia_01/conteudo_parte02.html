@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+      <h2 id="page-title">Título</h2>
+      <p id="paragraph" class="paragraph-class">Dê uma cor para este parágrafo!</p>
+      <h4 id="subtitle" class="other_subtitle">Subtítulo</h4>
+      <p id="second-paragraph" class="paragraph-class">Segundo parágrafo!</p>
+      
+    </header>
+    <script>
+      const paragraph = document.getElementById("paragraph");
+      paragraph.style.color = "red";
+
+      const title = document.getElementById('page-title');
+      title.innerText = "Pequena Miss Sunshine";
+
+      const sec_paragraph = document.getElementById('second-paragraph');
+
+      sec_paragraph.innerText = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quas, quam sunt rem illo iure soluta sit natus iusto consectetur quibusdam in a! Iste pariatur dolor sint, perferendis sed recusandae!";
+
+      const subtitle = document.getElementById('subtitle');
+      subtitle.innerText = "Exercício dia 01 do bloco 05 na Trybe!";
+
+      const ClassNameParagraph = document.getElementsByClassName("paragraph-class")[0]
+      ClassNameParagraph.style.fontSize = "40px";
+
+      const other_subtitle = document.getElementsByTagName('h4')[0];
+      other_subtitle.style.color = "blue";
+
+      </script>
+
+</body>
+</html>
