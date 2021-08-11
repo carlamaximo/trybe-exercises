@@ -185,8 +185,18 @@ assert.strictEqual(everyoneWasBornOnSecXX(), expectedResult1);
 const expectedResult2 = true;
 
 function someBookWasReleaseOnThe80s() {
-  return books.some((book) => book.releaseYear >= 1980 && book.releaseYear <= 1989);
+  return books.some((book) => book.releaseYear >= 1980 && book.releaseYear <= 1989)
+  
 }
 
 assert.strictEqual(someBookWasReleaseOnThe80s(), expectedResult2);
 
+// 7 - Faça uma função que retorne true , caso nenhum author tenha nascido no mesmo ano, e false , caso contrário.
+
+const expectedResult = false;
+
+function authorUnique() {
+  // escreva seu código aqui
+}
+
+assert.strictEqual(authorUnique(), expectedResult);
